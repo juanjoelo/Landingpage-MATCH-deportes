@@ -1,0 +1,129 @@
+header{
+    margin: 0;
+    font-family: arial, Helvetica, sans-serif, bold;
+    font-size: 17px;
+    color: white;
+    line-height: 1.6;
+}
+
+#showcase{
+    background-image: url(img/portada-definitiva.png);
+    background-size: cover;
+    background-position: center;
+    height:130vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+#showcase h1{
+    font-size: 50px;
+line-height: 1.2;
+color:white
+}
+
+#shocase h2{
+    font-size: 30px;
+    color:white;
+}
+
+.card-body{
+    text-align: center;
+    background-color:#fE6634;
+    color:white;
+    
+   
+}
+.tarjetas-visita{
+    padding-bottom: 20px;
+
+}
+
+.cuerpo-empretienda{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.empretienda{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+hr{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+hr:not([size]) {
+    height: 2px;
+    color: black;
+    margin: 90px;
+    width: 85%;
+}
+
+.titulo-redes, h1{
+    
+    font-family: arial, Helvetica, sans-serif, bold;
+    text-align: center;
+    }
+  
+    .tarjetas-redes-sociales{
+        padding-bottom: 20px;
+    }
+    
+
+    .cuerpo-tarjeta{
+        text-align: center;
+    background-color:#ffffff;
+    color:black;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    position: relative;
+    }
+    .icono{
+        size: 15px;
+    }
+
+    .mi_tarjeta{
+    margin-bottom: 25px;
+    transition-duration: 0.4s;
+   }   
+   .mi_tarjeta:hover{
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    transition-duration: 0.4s;
+   }
+   
+
+   footer.main-footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    background-color: black;
+    }
+
+    footer.main-footer p{
+        margin: 0px;
+    }
+    .letras-direccion-local{
+        font-family: arial, Helvetica, sans-serif, bold;
+        padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    background-color: black;
+    }
+    .location{
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
